@@ -42,6 +42,7 @@ coverage/
 
 # Docker & SSL (production)
 certbot/
+nginx/
 nginx/ssl/
 
 # Deployment guide (local only)
