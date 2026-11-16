@@ -44,3 +44,7 @@ coverage/
 certbot/
 nginx/ssl/
 
+# Deployment guide (local only)
+DEPLOYMENT.md
+
+
