@@ -35,9 +35,12 @@ coverage/
 # File env di root maupun di subfolder (client/server)
 .env
 .env.*
+.env.example
 **/.env
 **/.env.*
-!.env.example
+**/.env.example
 
-# File Docker
-Dockerfile
+# Docker & SSL (production)
+certbot/
+nginx/ssl/
+
