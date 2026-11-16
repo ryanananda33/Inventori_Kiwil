@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment variables — JANGAN commit file ini!
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build output
+client/dist/
+server/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage & Test
+coverage/
+.nyc_output/
+
+# File env di root maupun di subfolder (client/server)
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# File Docker
+Dockerfile
